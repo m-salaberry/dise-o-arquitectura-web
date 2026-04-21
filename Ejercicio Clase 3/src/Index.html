@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Título de la página</title>
+   </head>
+   <body style="background-color: black; color: white;">
+      <!-- Contenido del cuerpo del documento HTML -->
+       <h1>HTML5 y la Semántica Web</h1>
+      <header>
+         <!-- Cabecera del documento -->
+          <h2 style="color: aquamarine;"><u>Indice</u></h2>
+      </header>
+      <nav>
+         <!-- Barra de navegación -->
+          <ul>
+            <li><a href="#section1">Organización estructural y accesibilidad</a></li>
+            <li><a href="#section2">Multimedia nativa sin dependencias</a></li>
+            <li><a href="#section3">El Impacto en el Posicionamiento (SEO)</a></li>
+            <li><a href="#section4">La Evolución hacia una Sintaxis Humana y Legible</a></li>
+         </ul>
+      </nav>
+      <section>
+         <!-- Sección de contenido principal -->
+         <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">El lenguaje de marcado de hipertexto en su quinta versión, HTML5, no solo introdujo nuevas capacidades multimedia,<br>
+            sino que transformó fundamentalmente la manera en que los navegadores y los motores de búsqueda interpretan el contenido.<br>
+            A diferencia de las versiones anteriores, donde se abusaba del uso de etiquetas genéricas como &lt;div&gt;, HTML5 introdujo elementos semánticos.<br>
+            Estos elementos tienen un significado intrínseco tanto para el desarrollador como para la máquina, permitiendo que la estructura del documento sea legible y lógica por sí misma.
+         </p>
+         <img src="../image1.jpg" alt="Imagen 1" width="200">
+         
+         <h3 id="section1">Organización estructural y accesibilidad</h3>
+         <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Uno de los pilares de esta estructura es el uso de etiquetas de sección.<br>
+            Etiquetas como &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;footer&gt;, &lt;article&gt; y &lt;section&gt; permiten dividir una página en bloques funcionales claros.<br>
+            Por ejemplo, el &lt;header&gt; identifica el contenido introductorio o el grupo de enlaces de navegación, mientras que el &lt;footer&gt; suele contener información sobre el autor, datos de contacto o mapas del sitio.
+         </p>
+         <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Esta diferenciación es crucial para la accesibilidad, ya que permite a los lectores de pantalla para personas con discapacidad visual navegar por el sitio de forma mucho más eficiente.<br>
+            Al utilizar estas etiquetas, el desarrollador comunica qué partes del sitio son navegables y cuáles contienen el cuerpo principal del mensaje, eliminando la ambigüedad técnica.</p>
+         
+            <img src="./image2.jpg" alt="Imagen 2" width="200">
+         
+         <h3 id="section2">Multimedia nativa sin dependencias</h3>
+         <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Además de la organización estructural, HTML5 potenció la capacidad de manejar contenido multimedia de forma nativa.<br>
+            Antes de su llegada, la reproducción de audio o video dependía casi exclusivamente de complementos de terceros como Adobe Flash, que solían presentar vulnerabilidades de seguridad y un alto consumo de recursos.</p>
+         <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Con la incorporación de las etiquetas &lt;video&gt; y &lt;audio&gt;, los desarrolladores pueden integrar archivos multimedia directamente en el código.<br>
+            Esto mejora drásticamente los tiempos de carga y asegura la compatibilidad entre diferentes dispositivos, permitiendo que un mismo archivo se reproduzca correctamente tanto en una computadora de escritorio como en un smartphone, sin necesidad de instalaciones adicionales por parte del usuario.</p>
+         
+         <img src="./Assets/image3.jpg" alt="Imagen 3" width="200">
+
+         <h3 id="section3">El Impacto en el Posicionamiento (SEO)</h3>
+         <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Finalmente, el impacto de HTML5 se extiende significativamente al SEO (Optimización para Motores de Búsqueda).<br>
+            Los algoritmos de búsqueda actuales priorizan los sitios web que utilizan marcado semántico, ya que les permite identificar con precisión qué parte del texto es el contenido de valor y qué partes son complementarias, como ocurre con la etiqueta &lt;aside&gt;.</p>
+          <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Al proporcionar una jerarquía clara y un código limpio, HTML5 facilita que los bots de búsqueda indexen la información correctamente.<br>
+            Esto no solo aumenta las posibilidades de que un sitio web aparezca en los primeros resultados, sino que también garantiza una arquitectura de información robusta que se adapta a las futuras evoluciones de la web.</p>
+      </section>
+      <article style="background-color:deeppink;">
+         <!-- Artículo o contenido independiente -->
+          <h3 id="section4">La Evolución hacia una Sintaxis Humana y Legible</h3>
+               <p style="font-family: sans-serif;color: cadetblue;">La decisión de enfocar HTML5 en una sintaxis más clara y semántica respondió a la necesidad de simplificar el desarrollo web y estandarizar las prácticas de la industria.<br>
+                  Antes de esta versión, la estructura de las páginas era un caos de etiquetas genéricas que no describían su contenido, lo que obligaba a los desarrolladores a depender de nombres de clases arbitrarios.<br>
+                  Al establecer una sintaxis estricta pero comprensible, se logró que el código no solo fuera interpretado por máquinas, sino que pudiera ser leído y mantenido por seres humanos de forma intuitiva, reduciendo errores y optimizando la interoperabilidad entre los diferentes navegadores del mercado.</p>
+      </article>
+      <aside style="background-color: lightgray; border: 1px solid black; border-radius: 5px; text-align: center; width: 500px; align-items: center; margin: auto;">
+         <!-- Contenido relacionado o complementario al contenido principal -->
+          <h3 style="background-color: darkgrey; border: 1px solid black; border-radius: 5px;">Interactividad Avanzada: Las APIs de HTML5</h3>
+         <p style="color: black;">Más allá de las etiquetas visibles en el navegador, HTML5 introdujo una serie de Interfaces de Programación de Aplicaciones (APIs) que expandieron las fronteras de lo que se puede hacer en una pestaña del explorador.<br>
+            Entre las más destacadas se encuentran la API de Geolocalización, que permite a las aplicaciones web conocer la ubicación del usuario (previo consentimiento), y la API de Web Storage (localStorage y sessionStorage), que permite guardar datos en el navegador de forma persistente.<br>
+            Estas herramientas eliminaron la dependencia histórica de las cookies para tareas complejas, permitiendo que las aplicaciones web funcionen de manera más rápida y segura.</p>
+         <p style="color: black;">Otro componente revolucionario es el elemento &lt;canvas&gt;.<br>
+            Esta funcionalidad permite a los desarrolladores dibujar gráficos, realizar animaciones y procesar imágenes en tiempo real directamente mediante código.<br>
+            Gracias a esto, HTML5 se convirtió en la tecnología estándar para el desarrollo de juegos basados en el navegador y para la visualización de datos complejos a través de gráficos interactivos, consolidando a la web como una plataforma de software robusta y versátil que compite directamente con las aplicaciones nativas.</p>
+         <img src="./Assets/extras/image4.jpg" alt="Imagen 4" width="200">
+      </aside>
+      <footer>
+         <!-- Pie de página -->
+            <p style="color: white;">© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+      </footer>
+   </body>
+</html>
