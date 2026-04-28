@@ -1,0 +1,35 @@
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.cabecera{
+    width: 100%;
+    height: 10vh;
+    background-color: #ccc;
+    visibility: hidden;
+}
+
+.menu{
+    background-color: #3efff5;
+    width: 20%;
+    height: 40vh;
+    float: right;
+    display: none;
+}
+
+.contenido{
+    background-color: #002999;
+    width: 80%;
+    height: 80vh;
+    float: left;
+}
+
+.pie{
+    width: 100%;
+    height: 10vh;
+    background-color: #ccc;
+    clear: both;
+    visibility: hidden;
+}
