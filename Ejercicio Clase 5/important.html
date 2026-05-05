@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo !important</title>
+    <style>
+        p {
+            color: blue;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+
+        .destacado {
+            color: green;
+            font-size: 20px;
+        }
+
+        #especial {
+            color: orange !important;
+            font-size: 24px !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo del uso de !important</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illum culpa qui saepe mollitia dolorum reprehenderit, alias et consectetur. Eos explicabo veritatis excepturi voluptatibus quam, incidunt tenetur labore magnam numquam!</p>
+
+    <p class="destacado">lorem ipsum dolor sit amet</p>
+
+    <p id="especial" class="destacado" style="color: red; font-size: 30px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae culpa nemo ducimus, iure et laborum corrupti, architecto velit optio impedit ratione dolor deserunt numquam eum. Quod libero nihil ratione!
+    </p>
+</body>
+</html>
